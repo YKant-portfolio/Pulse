@@ -1,0 +1,24 @@
+.consultation {
+	min-height: 680px;
+	padding: 100px 0 92px 0;
+	background: url("../img/section3consultation/bg2.jpg") center (center/cover) no-repeat;
+	&__descr {
+		width: 426px;
+		font-size: 20px;
+		line-height: 20px;
+		font-weight: 500;
+		color: #ffffff;
+		margin-top: 80px;
+	}
+	.error {
+		border: 1px solid red;
+		text-align: center;
+		margin-bottom: 15px;
+		color: rgb(221, 194, 194);
+		font-style: italic;
+		font-size: 14px;
+	}
+	label.error {
+		border: none;
+	}
+}
